@@ -1,7 +1,7 @@
 name: Pipeline UNOPAR CI/CD
-on: 
+"on": 
   push: 
-branchers: [main]
+  branchers: [main]
  jobs: 
  build:
    runs-on: ubuntu-latest
