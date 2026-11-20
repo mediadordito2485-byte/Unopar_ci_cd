@@ -1,6 +1,6 @@
 name: Pipeline UNOPAR CI/CD
 "on": 
- push: 
+  push: 
    branches: [main]
  jobs: 
  build:
