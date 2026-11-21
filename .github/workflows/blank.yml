@@ -1,11 +1,11 @@
 name: Pipeline UNOPAR CI/CD
  "on": [push]
 jobs: 
- build:
+  build:
    runs-on: ubuntu-latest
-  steps:
-   -  uses: actions/checkout@v4
-   -  name: Build do projeto
+    steps:
+     -  uses: actions/checkout@v4
+     -  name: Build do projeto
    run: |
      mkdir -p build && echo "Build OK"> build/app.txt
 test:
