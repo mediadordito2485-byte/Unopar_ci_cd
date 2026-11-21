@@ -1,6 +1,6 @@
 name: Pipeline UNOPAR CI/CD
- "on": [push]
-jobs: 
+"on": [push]
+ jobs: 
   build:
    runs-on: ubuntu-latest
     steps:
